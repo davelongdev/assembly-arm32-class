@@ -19,6 +19,7 @@ qemu-arm - emulate arm 32 env.
 arm-linux-gnueabihf-gcc - (cross compiler) compile or assemble source code into a binary file
 arm-linux-gnueabihf-gcc -o test test.c -static >>> compile c test file as arm 32 bin
 qemu-arm ./test -g 4242 - run test program in gdb server for debugging
+arm-linux-gnueabihf-objdump -d ./file-name | less - to disassemble file-name's code and inspect it
 (gdb) file ./test - loads the program to debug
 (gdb) target remote localhost:4242 - connect to remotely running instance of program
 
