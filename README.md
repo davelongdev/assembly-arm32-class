@@ -31,3 +31,5 @@ gdb commands - misc
 - (gdb) `<enter>` - cycle through layout views
 - (gdb) n / next - move to next c operation
 - (gdb) nexti / ni - move to next assembly instruction
+- (gdb) x/FMT ADDRESS - examine memory
+- (gdb) info registers - shows info on registers
