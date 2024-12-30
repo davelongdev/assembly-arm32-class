@@ -2,7 +2,7 @@
 .section .text
 
 _start:
-    MOV R1, #64  // Load a test value into R1
+    MOV R1, #10000  // Load a test value into R1
 
     LSL R2, R1, #4        // Logical Shift Left R1 by 4, store result in R2
     LSR R3, R1, #4        // Logical Shift Right R1 by 4, store result in R3
